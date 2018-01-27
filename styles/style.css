@@ -1,3 +1,89 @@
+/* Main */
+
 body {
+	background-color: #FFFFFF;
+	width: 100vw;
+	height: 100vh;
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+
+/* Header Nav Bars */
+
+ul.header-nav {
+	list-style-type: none;
+	width: 100%;
+}
+
+li.header-nav-right {
+	float: right;
+}
+
+li.header-nav-left {
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* Logo */
+
+.logo {
+	padding-top: 100px;
+}
+
+/* Form */
+
+.searchform {
+
+}
+
+/* Footers */
+
+.location {
 	background-color: #f2f2f2;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+}
+
+p {
+	margin-left: 20px;
+	text-align: left;
+	line-height: 15px;
+	font-size: medium;
+	font-weight: lighter;
+	width: 100%;
+}
+
+ul.footer-nav {
+	list-style-type: none;
+	margin: 0;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	background-color: #f2f2f2;
+	overflow: hidden;
+
+}
+
+.footer-nav-left, .footer-nav-right {
+	display: inline;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #f2f2f2;
+	width: 100%;
+}
+
+.footer-nav-right a {
+	float: right;
+	margin-right: 20px;
+	margin-left: 0px;
+}
+
+.footer-nav-left a {
+	float: left;
+	margin-right: 0px;
+	margin-left: 20px;
 }

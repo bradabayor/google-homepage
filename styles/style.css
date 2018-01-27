@@ -6,38 +6,66 @@ body {
 	height: 100vh;
 	font-family: arial, sans-serif;
 	font-size: small;
-}
-
-/* Header Nav Bars */
-
-ul.header-nav {
-	list-style-type: none;
-	width: 100%;
-}
-
-li.header-nav-right {
-	float: right;
-}
-
-li.header-nav-left {
-	float: left;
+	margin: 0;
 }
 
 a {
 	text-decoration: none;
-	color: black;
+}
+
+/* Header Nav Bars */
+
+.header-nav {
+	list-style-type: none;
+	margin: 0;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+.header-nav-right {
+	float: right;
+	margin-right: 20px;
+}
+
+.header-nav-right a {
+	
 }
 
 /* Logo */
 
 .logo {
-	padding-top: 100px;
+	padding-top: 170px;
 }
 
 /* Form */
 
 .searchform {
+	padding-top: 30px;
+}
 
+.textinput {
+	height: 40px;
+	width: 500px;
+	margin-bottom: 30px;
+	box-shadow: 0 2px 1px 0 #ccc;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DCDCDC;
+	border-radius: 2px;
+}
+
+button {
+	background-color: #f2f2f2;
+    border: none;
+    color: gray;
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
 }
 
 /* Footers */

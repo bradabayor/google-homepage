@@ -42,48 +42,68 @@ a {
 
 /* Footers */
 
+footer {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
 .location {
 	background-color: #f2f2f2;
 	border-style: solid;
-	border-color: gray;
+	border-color: #DCDCDC;
 	border-width: 1px;
 }
 
 p {
 	margin-left: 20px;
 	text-align: left;
-	line-height: 15px;
-	font-size: medium;
+	line-height: 8px;
+	font-size: 15px;
 	font-weight: lighter;
 	width: 100%;
+	color: gray;
 }
 
-ul.footer-nav {
+.footer-nav {
 	list-style-type: none;
 	margin: 0;
-	padding-top: 18px;
-	padding-bottom: 18px;
 	background-color: #f2f2f2;
 	overflow: hidden;
 
 }
 
-.footer-nav-left, .footer-nav-right {
-	display: inline;
-	padding-top: 15px;
-	padding-bottom: 15px;
+.footer-nav {
+	display: block;
+	margin-top: -1px;
 	background-color: #f2f2f2;
+	border-style: solid;
+	border-color: #DCDCDC;
+	border-width: 1px;
 	width: 100%;
 }
 
-.footer-nav-right a {
+.footer-nav-right, .footer-nav-left {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #f2f2f2;
+}
+
+.footer-nav-right {
 	float: right;
 	margin-right: 20px;
+}
+
+.footer-nav-left {
+	float: left;
 	margin-left: 0px;
 }
 
-.footer-nav-left a {
-	float: left;
-	margin-right: 0px;
+.footer-nav-left a, .footer-nav-right a {
 	margin-left: 20px;
+	color: gray;
+}
+
+.footer-nav-left a:hover, .footer-nav-right a:hover {
+	text-decoration: underline;
 }

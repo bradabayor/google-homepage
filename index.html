@@ -3,47 +3,45 @@
 <html>
 <head>
 	<title>Google</title>
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
-
-<body class="container">
-
-	<div class="nav-left">
-		<a href="#">About</a>
-		<a href="#">About</a>
-	</div>
-	<div class="nav-right">
-		<a href="#">Gmail</a>
-		<a href="#">Images</a>
-		<img src="images/google-apps" alt="Google Apps">
-		<img src="images/google-notifications" alt="Google Notifications">
-		<img src="images/google-account" alt="Google Account">
-	</div>
-
-	<div>
-		<img src="images/google-logo" class="logo" alt="Google Logo">
-	</div>
-
-	<div>
-		<form class="search" action="#" method="get">
-			<input type="text"><br>
-			<input type="submit" name="Google Search">
-			<input type="submit" name="I'm Feeling Lucky">
-		</form>
-	</div>
-	
+<body>
+	<header>
+		<ul class="header-nav-left">
+			<li class="nav-item-left">
+				<a href="#" class="header-nav-image">About</a>
+				<a href="#" class="header-nav-image">Store</a>
+			</li>
+			<li class="nav-item-left">
+				<a href="#" class="header-nav-image">Gmail</a>
+				<a href="#" class="header-nav-image">Images</a>
+				<a href="#"><img src="./images/google-apps.png" alt="Google Apps"></a>
+          <a href="#"><img src="/images/google-notifications.png" alt="Google notifications"></a>
+          <a href="#"><img src="/images/google-account.png" alt="Google Account"></a>
+			</li>
+		</ul>
+	</header>
+	<section class="logo">
+		<img src="images/google-logo.png" alt="Google">
+	</section>
+	<form class="searchform">
+		<input type="text"><br>
+		<input type="submit">
+		<input type="submit">
+	</form>
 	<footer>
-		<div class="footer-nav-left">
-			<a href="#">Advertisement</a>
-			<a href="#">Business</a>
-		</div>
-		<div class="footer-nav-right">
-			<a href="#" class="footer-right">Privacy</a>
-			<a href="#" class="footer-right">Terms</a>
-			<a href="#" class="footer-right">Settings</a>		
-		</div>
+		<ul class="footer-nav">
+			<li class="footer-nav-right">
+				<a href="#">Advertising</a>
+				<a href="#">Business</a>
+			</li>
+			<li class="footer-nav-left">
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Settings</a>
+			</li>
+		</ul>
 	</footer>
-
 </body>
 </html>

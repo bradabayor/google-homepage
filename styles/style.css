@@ -13,9 +13,23 @@ a {
 	text-decoration: none;
 }
 
+img {
+	vertical-align: middle;
+}
+
+button {
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: small;
+    font-weight: bold;
+}
+
 /* Header Nav Bars */
 
 .header-nav {
+	display: inline;
 	list-style-type: none;
 	margin: 0;
 	background-color: #FFFFFF;
@@ -25,10 +39,21 @@ a {
 .header-nav-right {
 	float: right;
 	margin-right: 20px;
+	margin-top: 15px;
 }
 
 .header-nav-right a {
-	
+	color: black;
+	margin-right: 12px;
+	opacity: 0.66;
+}
+
+.signin {
+	color: white;
+	background-color: #417FF6;
+	padding: 8px 11px;
+	border: none;
+;
 }
 
 /* Logo */
@@ -54,18 +79,19 @@ a {
 	border-radius: 2px;
 }
 
-button {
-	background-color: #f2f2f2;
-    border: none;
-    color: gray;
-    padding: 10px 15px;
+.searchbutton {
+	padding: 10px 15px;
     margin-left: 5px;
-    border-radius: 2px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: small;
-    font-weight: bold;
+	background-color: #f2f2f2;
+    color: gray;
+    border: 1px;
+    border-style: solid;
+    border-color: #f2f2f2;
+}
+
+.searchbutton:hover {
+	border-color: #DCDCDC;
+	color: black;
 }
 
 /* Footers */

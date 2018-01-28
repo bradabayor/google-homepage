@@ -48,6 +48,10 @@ button {
 	opacity: 0.66;
 }
 
+.header-nav-right a:hover {
+	text-decoration: underline;
+}
+
 .signin {
 	color: white;
 	background-color: #417FF6;
